@@ -28,7 +28,6 @@ public class SwagLabsElements extends SwagLabsBase {
 
     public void verifyLogin() {
         verifyElementDisplayed(loginAssertion);
-        ;
     }
 
     @AndroidFindBy(xpath = "(//android.view.ViewGroup[@content-desc=\\\"test-ADD TO CART\\\"])[1]")
@@ -50,7 +49,6 @@ public class SwagLabsElements extends SwagLabsBase {
 
     public void verifyShoppingCart() {
         verifyElementDisplayed(shoppingCartAssertion);
-        ;
     }
 
     @AndroidFindBy(xpath = "//android.view.ViewGroup[@content-desc=\\\"test-REMOVE\\\"]")
@@ -138,7 +136,6 @@ public class SwagLabsElements extends SwagLabsBase {
 
     public void orderMessageVerify() {
         verifyElementDisplayed(orderMessage);
-        ;
     }
 
     @AndroidFindBy(xpath = "//android.view.ViewGroup[@content-desc=\\\"test-BACK HOME\\\"]")
@@ -182,7 +179,6 @@ public class SwagLabsElements extends SwagLabsBase {
 
     public void webViewVerify() {
         verifyElementDisplayed(webView);
-        ;
     }
 
     @AndroidFindBy(xpath = "//android.view.ViewGroup[@content-desc=\\\"test-ALL ITEMS\\\"]/android.widget.TextView")

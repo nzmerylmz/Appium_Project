@@ -36,7 +36,6 @@ public class SwagLabsBase {
             url = new URL("http://127.0.0.1:4723/wd/hub");
             driver = new AppiumDriver(url, cap);
         } catch (MalformedURLException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
         System.out.println("Application Started");
@@ -47,7 +46,6 @@ public class SwagLabsBase {
         try {
             Thread.sleep(700);
         } catch (InterruptedException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
         driver.quit();
@@ -93,7 +91,6 @@ public class SwagLabsBase {
         try {
             Thread.sleep(2000);
         } catch (InterruptedException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
         WebElement verticalScroll = driver.findElement(AppiumBy.className("android.widget.ScrollView"));
@@ -113,7 +110,6 @@ public class SwagLabsBase {
         try {
             Thread.sleep(2000);
         } catch (InterruptedException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
         WebElement verticalScroll = driver.findElement(AppiumBy.className("android.widget.ScrollView"));

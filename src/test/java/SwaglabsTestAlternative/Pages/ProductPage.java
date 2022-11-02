@@ -1,4 +1,4 @@
-package pages;
+package SwaglabsTestAlternative.Pages;
 
 import org.openqa.selenium.WebElement;
 
